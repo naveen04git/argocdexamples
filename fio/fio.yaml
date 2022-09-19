@@ -22,7 +22,7 @@ items:
           - name: RW
             value: randrw
           - name: RWRPCT
-            value: '0'
+            value: '70'
           - name: QD
             value: '16'
           - name: BLOCK_SIZE
