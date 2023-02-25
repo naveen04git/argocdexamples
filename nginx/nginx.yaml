@@ -9,6 +9,8 @@ spec:
   replicas: 1 # tells deployment to run 1 pods matching the template
   template:
     metadata:
+      annotations:
+        diamanti.com/endpoint0: '{"endpointId":"nginx","perfTier":"high"}'
       labels:
         app: nginx
     spec:
@@ -17,3 +19,5 @@ spec:
         image: maersk/nginx
         ports:
         - containerPort: 80
+      nodeSelector:
+        kubernetes.io/hostname: appserv87
