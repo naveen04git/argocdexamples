@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "<html lang='en'>" > /usr/share/nginx/html/index.html;
 echo "  <head>" >> /usr/share/nginx/html/index.html;
 echo "    <meta charset='utf-8'>" >> /usr/share/nginx/html/index.html;
