@@ -3,9 +3,9 @@
 <html>
 <body>
 <script>
-<font size='8' color='blue'>
 document.writeln("hostname: " + document.location.hostname);
-</font>
+document.writeln("hostname: " + document.location.host);
+document.writeln("hostname: " + process.env.HOSTNAME);
 </script>
 </body>
 </html>
