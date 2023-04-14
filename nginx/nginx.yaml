@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: core.harbor.domain/library/mynginx:0.1
+        image: core.harbor.domain/library/mynginx:0.2
         ports:
         - containerPort: 80
       nodeSelector:
