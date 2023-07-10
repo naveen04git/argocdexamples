@@ -11,14 +11,12 @@ spec:
     type: Recreate
   template:
     metadata:
-      annotations:
-        diamanti.com/endpoint0: '{"endpointId":"nginx","perfTier":"high"}'
       labels:
         app: nginx
     spec:
       containers:
       - name: nginx
-        image: core.harbor.domain/library/mynginx:1.5
+        image: maersk/nginx
         ports:
         - containerPort: 80
       nodeSelector:
