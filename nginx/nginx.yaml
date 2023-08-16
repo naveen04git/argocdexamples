@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: maersk/nginx
+        image: harbor.ocp.diamanti.com/library/mynginx:1.5
         ports:
         - containerPort: 80
-      nodeSelector:
-        kubernetes.io/hostname: appserv87
+#     nodeSelector:
+#       kubernetes.io/hostname: appserv87
