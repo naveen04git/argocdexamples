@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: harbor.ocp.diamanti.com/library/mynginx:2.4
+        image: harbor.ocp.diamanti.com/library/mynginx:2.5
         ports:
         - containerPort: 80
 #     nodeSelector:
